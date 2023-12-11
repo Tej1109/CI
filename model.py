@@ -39,5 +39,5 @@ print(f'Accuracy: {accuracy}')
 print(f'F1 Score: {f1}')
 
 # Export metrics to a file
-with open('metrics.txt', 'w') as outfile:
-    outfile.write(f'Accuracy = {accuracy}, F1 Score = {f1}.\n\nConfusion Matrix:\n{conf_matrix}')
+# with open('metrics.txt', 'w') as outfile:
+#     outfile.write(f'Accuracy = {accuracy}, F1 Score = {f1}.\n\nConfusion Matrix:\n{conf_matrix}')
